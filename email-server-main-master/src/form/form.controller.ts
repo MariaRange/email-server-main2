@@ -12,7 +12,7 @@ export class FormController {
     try {
       const info = await this.mailerServive.transporter.sendMail({
         from: `"Cliente👻" <${body.email}>`, // sender address
-        to: 'moduloiiigpe.victoria@hotmail.com', // list of receivers
+        to: 'maria.rangel.is@unipolidgo.edu.mx', // list of receivers
         subject: 'Cliente', // Subject line
         text: `
           Telefono: ${body.phone}
