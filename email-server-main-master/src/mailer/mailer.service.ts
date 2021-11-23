@@ -6,8 +6,8 @@ export class MailerService {
   private _transporter: Transporter;
 
   private email = {
-    user: `labo.dental123@gmail.com`,
-    pass: `iywtiacuxwahtixz`,
+    user: `moduloiiiguadalupevictoria123@gmail.com`,
+    pass: `ostfypqmavvxrdbz`,
   };
 
   constructor() {
